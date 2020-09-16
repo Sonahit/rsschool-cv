@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <style>
+      .wrapper {
+        width: 1024px;
+        margin: 0 auto;
+      }
+      .main,
+      .header {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+      }
+      .header {
+        font-size: 22px;
+      }
+      .main img {
+        width: 350px;
+        height: 100%;
+      }
+      .stick-left {
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>CV</h1>
+        <strong>Ivan Sadykov</strong>
+      </header>
+      <main class="main">
+        <div class="content-wrapper">
+          <article>
+            <p>This is a CV but i am lazy to fill that with content yeah...</p>
+            <img src="cat.jpg" alt="cat with tongue out" />
+            <p>Well anyway there's list of my skills in short:</p>
+          </article>
+          <section>
+            <ul>
+              <li>
+                <h2>Backend</h2>
+                <ul>
+                  <li>JS</li>
+                  <li>PHP</li>
+                  <li>DevOps</li>
+                </ul>
+              </li>
+              <li>
+                <h2>Frontend</h2>
+                <ul>
+                  <li>React</li>
+                  <li>Angular</li>
+                  <li>HTML5, CSS3</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
